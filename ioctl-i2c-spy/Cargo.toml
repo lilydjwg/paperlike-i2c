@@ -1,14 +1,13 @@
 [package]
 name = "ioctl-i2c-spy"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["lilydjwg <lilydjwg@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 redhook = "*"
-time = "*"
 
 [lib]
 crate_type = ["dylib"]
